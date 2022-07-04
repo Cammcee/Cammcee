@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Assignment</title>
+</head>
+<body>
+    <h2> JavaScript Assignment</h2>
+
+    <p> Name: <span id="name">your name here...</span></p>
+    <p> Telephone: <span id="tel">your tel here...</span></p>
+    <p> Occupation: <span id="occ">your occupation here...</span></p>
+    <p> Location: <span id="loc">your location here...</span></p>
+    <p> Age: <span id="age">your age here...</span></p>
+
+    <script>
+        let myName='Eileen';
+        let myTelephone = '0240302556';
+        let myOccupation ='Student';
+        let myLocation ='Tantra-Hills';
+        let myAge ='22';
+
+        document.getElementById('name').innerHTML=myName;
+        document.getElementById('tel').innerHTML=myTelephone;
+        document.getElementById('occ').innerHTML=myOccupation;
+        document.getElementById('loc').innerHTML=myLocation;
+        document.getElementById('age').innerHTML=myAge;
+    </script>
+
+    
+</body>
+</html>
